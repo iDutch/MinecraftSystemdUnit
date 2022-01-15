@@ -8,7 +8,8 @@ Systemd Unit file for Minecraft Server
     - To validate that you're now root, run `id`
 1. Next install the necessary packages 
     ```bash
-    apt-get install -y openjdk-11-jre-headless curl screen nano bash grep
+    apt-get update
+    apt-get install -y openjdk-17-jre-headless curl screen nano bash grep
     ```
 1. Create the `/opt` folder if it doesn't already exist 
     ```bash
